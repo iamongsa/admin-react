@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400&display=swap");
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Prompt", sans-serif;
+  background-color: #eeeeee;
+  overflow: scroll;
+}
+.content_body {
+  background-color: rgb(223, 255, 216);
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.bg-con {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.app {
+  display: flex;
+  position: relative;
+}
+.menu-bars {
+  text-decoration: none;
+  color: #ffffff;
+}
+.menu-bars:hover {
+  color: rgb(0, 0, 0);
+  background-color: #93b1a6;
+}
+.sub-menu-bars {
+  text-decoration: none;
+  color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.text-head-center {
+  display: flex;
+  justify-content: center;
+}
+
+.addbt-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Dashboard */
+.dashboard {
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+  padding: 2%;
+}
+
+.head-center {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+.bg-dt {
+  width: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bg-dt-report {
+  width: 100%;
+  padding: 3%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.select-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.data-report {
+  padding: 5%;
+}
+.head-dt {
+  font-size: 20px;
+  justify-content: center;
+}
+.con-dt {
+  display: flex;
+  justify-content: space-between;
+}
+.dt-db {
+  width: auto;
+  height: auto;
+}
+.work-icon {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dt-num {
+  padding: 2%;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+.pie-db {
+  border-radius: 20px;
+  padding: 2%;
+}
+
+.con-btw {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #183D3D;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+/* repons หน้าdashbord */
+@media (max-width: 740px) {
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg-dt {
+    margin: 3%;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .bg-dt-report {
+    padding: 1%;
+  }
+}

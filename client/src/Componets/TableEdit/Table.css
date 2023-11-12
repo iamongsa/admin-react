@@ -1,0 +1,34 @@
+/* Edit Table */
+.edit-table {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .con-select{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+  }
+  .bt-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ปรับเป็นแนวนอนเมื่ออยู่บนจอโทรศัพท์ (ขนาดหน้าจอน้อยกว่าหรือเท่ากับ 600px) */
+@media screen and (max-width: 740px) {
+    .edit-table {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .con-select{
+      flex-direction: column;
+  
+    }
+    .bt-center {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+    /* เพิ่ม CSS อื่น ๆ ตามที่คุณต้องการในส่วนนี้ */
+  }
